@@ -18,6 +18,13 @@ export class MemberListComponent implements OnInit {
       this.users = data['users'];
     });
   }
+ /*  isMale(user: User) {
+    if ( user.gender === 'male') {
+      return true;
+    }
 
+    return false;
+  } */
+  
 
 }
